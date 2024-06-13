@@ -4,8 +4,9 @@ Design:
 
 The following script uses an existing rust library
 [wayland-clipboard-listener](https://github.com/Decodetalkers/wayland-clipboard-listener)
-to bind to the `wlr-data-control-unstable-v1` protocol and listen
-for Clipboard Selection Offers before calling
+to bind to the
+[wlr-data-control-unstable-v1](https://wayland.app/protocols/wlr-data-control-unstable-v1)
+protocol and listen for Clipboard Selection Offers before calling
 [recieve](https://wayland.app/protocols/wlr-data-control-unstable-v1#zwlr_data_control_offer_v1:request:receive)
 to retrieve the associated clipboard data.
 
